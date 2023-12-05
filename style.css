@@ -1,0 +1,280 @@
+html {
+    background: url(images/albumcover_NSWY.png);
+    background-attachment: fixed;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 1000px;
+    height: auto
+}
+
+h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px
+}
+
+h1 a {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px
+}
+
+.logonav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    background: black;
+    width: 100%;
+}
+
+.logonav img {
+    width: auto;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logonav nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-top: 15px;
+}
+
+nav, p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+.leftimg {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.leftimg img {
+    max-width: 60%;
+}
+
+.leftimgtxt {
+    flex: 1;
+}
+
+.leftimgtxt h1, .leftimgtxt p {
+    margin-left: 20px;
+}
+
+.rightimg {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.rightimgtxt {
+    flex: 1;
+}
+
+.rightimg img {
+    max-width: 60%;
+}
+
+.rightimgtxt h1, .rightimgtxt p {
+    margin-right: 20px;
+}
+
+.aftnav {
+    margin-top: 120px;
+}
+
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.albumcoverleft, .albumcoverright {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.albumcoverleft {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+}
+
+.albumcoverright {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: right;
+    clear: left;
+}
+
+.albums img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+}
+.albums h2, .albums h3 {
+    padding: 50px;
+}
+
+.questions {
+    background-color: #0C091E;
+    margin: 50px;
+}
+
+.questions label {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.questions p, .questions p a {
+    padding: 10px;
+    color: white;
+}
+
+.tours img, .concertpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 50px;
+    width: 500px;
+    height: auto;
+}
+
+.concertpics img {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+}
+
+@media screen and (max-width: 576px) {
+    .logonav img {
+        width: auto;
+        height: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .logonav nav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    nav a {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+
+    .aftnav {
+        margin-top: 40px;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+    }
+    
+    h1 a {
+        color: white;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+    }
+
+    nav, p {
+        font-family: 'Dosis', sans-serif;
+        font-size: 10px;
+    }
+
+    .albumcoverleft, .albumcoverright {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+    }
+
+    .albums h2, .albums h3 {
+        padding: 10px;
+    }
+
+    .questions label {
+        font-size: 10px;
+    }
+
+    .tours img, .concertpics {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 20px;
+        width: 350px;
+        height: auto;
+    }
+    
+    .concertpics img {
+        position: relative;
+        overflow: hidden;
+        width: 350px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Interactive Development Assignment 01</title>
+        <link rel="stylesheet" href="normalize.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="logonav">
+            <a href="index.html"><img src="images/honne_logo.png" alt="Logo"></a>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="discography.html">DISCOGRAPHY</a>
+                <a href="shows.html">SHOWS</a>
+                <a href="booking.html">BOOK US</a>
+            </nav>
+        </div>
+
+        <div class="aftnav">
+            <h1>Shows</h1>
+            <div class="tours">
+                <p>No upcoming tours scheduled.</p>
+                <h2>Some past tours...</h2>
+                <img src="images/tour_may2023asia.png" alt="May 2023 Asia Tour">
+                <img src="images/tour_lmlmn2019asia.png" alt="Love Me / Love Me Not 2019 Asia Tour">
+                <img src="images/tour_lmlmn2018worldtour.png" alt="Love Me / Love Me Not 2018 World Tour">
+            </div>
+            <div class="hist">
+                <h2>The memories we made...</h2>
+                <div class="concertpics">
+                    <img src="images/concert_pic01.png" alt="Concert Picture">
+                    <img src="images/concert_pic02.png" alt="Concert Picture">
+                    <img src="images/concert_pic03.png" alt="Concert Picture">
+                    <img src="images/concert_pic04.png" alt="Concert Picture">
+                    <img src="images/concert_pic05.png" alt="Concert Picture">
+                    <img src="images/concert_pic06.png" alt="Concert Picture">
+                    <button id="previous" onclick="changeSlide(-1)">◄</button>
+                    <button id="next" onclick="changeSlide(1)">►</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
